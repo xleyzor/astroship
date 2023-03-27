@@ -627,9 +627,11 @@ footer p a:hover {
   border: 2px solid #000;
   color: #000;
   transition: 0.3s all ease;
+  text-align:left;
 }
 
 .black-card-btn {
+  text-align:left;
   margin-top: 2rem;
   cursor: pointer;
   width: 100%;

@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing | Astroship</title>
+    <link rel="icon" href="images/favicon.svg" />
+
+    <!-- CS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- JS -->
+    <script src="app.js" defer></script>
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="index.html" class="logo"
+          ><span class="astro">Astro</span><span class="ship">ship</span></a
+        >
+        <ul class="navbar-list">
+          <li>
+            <button class="dropdown-menu">
+              <span>Features</span>
+              <div class="arrows">
+                <i class="fa-solid fa-angle-up up" id="arrow-up"></i>
+                <i class="fa-solid fa-angle-down down" id="arrow-down"></i>
+              </div>
+            </button>
+            <div class="dropdown">
+              <a href="#">Action</a>
+              <a href="#">Another action</a>
+              <a href="#">Dropdown Submenu </a>
+            </div>
+          </li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="login">
+          <a href="#" class="log-in">Log in</a>
+          <a href="#" class="sign-up">Sign up</a>
+        </div>
+
+        <button class="menu">
+          <i class="fa-solid fa-bars bars"></i>
+          <i class="fa-solid fa-xmark xmark"></i>
+        </button>
+      </div>
+      <div class="mobileNavbar">
+        <div class="mobile-links">
+          <div class="features-li">
+            <button class="dropdown-menu mobile-dropdown-menu">
+              <span>Features</span>
+              <div class="arrows arrows-mobile">
+                <i class="fa-solid fa-angle-up up" id="arrow-up"></i>
+                <i class="fa-solid fa-angle-down down" id="arrow-down"></i>
+              </div>
+            </button>
+            <div class="mobile-dropdown">
+              <a href="#">Action</a>
+              <a href="#">Another action</a>
+              <a href="#">Dropdown Submenu </a>
+            </div>
+          </div>
+          <a href="pricing.html">Pricing</a>
+          <a href="about.html">About</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="mobil-login">
+          <a href="#">Log in</a>
+          <a href="#">Sign up</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="title">
+        <h1>Pricing</h1>
+        <p>Simple & Predictable pricing. No Surprises.</p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <p class="card-name">Personal</p>
+          <h2>Free</h2>
+          <ul>
+            <li>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  fill="currentColor"
+                  fill-opacity=".16"
+                ></circle>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.75 12a8.25 8.25 0 0 1 11.916-7.393.75.75 0 1 0 .668-1.343A9.713 9.713 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75c0-.366-.02-.727-.06-1.082a.75.75 0 1 0-1.49.164A8.25 8.25 0 1 1 3.75 12Zm17.78-6.47a.75.75 0 0 0-1.06-1.06L12 12.94l-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l9-9Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <p>Lifetime free</p>
+            </li>
+            <li>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  fill="currentColor"
+                  fill-opacity=".16"
+                ></circle>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.75 12a8.25 8.25 0 0 1 11.916-7.393.75.75 0 1 0 .668-1.343A9.713 9.713 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75c0-.366-.02-.727-.06-1.082a.75.75 0 1 0-1.49.164A8.25 8.25 0 1 1 3.75 12Zm17.78-6.47a.75.75 0 0 0-1.06-1.06L12 12.94l-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l9-9Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <p>Up to 3 users</p>
+            </li>
+            <li>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  fill="currentColor"
+                  fill-opacity=".16"
+                ></circle>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.75 12a8.25 8.25 0 0 1 11.916-7.393.75.75 0 1 0 .668-1.343A9.713 9.713 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75c0-.366-.02-.727-.06-1.082a.75.75 0 1 0-1.49.164A8.25 8.25 0 1 1 3.75 12Zm17.78-6.47a.75.75 0 0 0-1.06-1.06L12 12.94l-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l9-9Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <p>Unlimited Pages</p>
+            </li>
+            <li>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  fill="currentColor"
+                  fill-opacity=".16"
+                ></circle>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.75 12a8.25 8.25 0 0 1 11.916-7.393.75.75 0 1 0 .668-1.343A9.713 9.713 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75c0-.366-.02-.727-.06-1.082a.75.75 0 1 0-1.49.164A8.25 8.25 0 1 1 3.75 12Zm17.78-6.47a.75.75 0 0 0-1.06-1.06L12 12.94l-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l9-9Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <p>Astro Sub domain</p>
+            </li>
+            <li>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  fill="currentColor"
+                  fill-opacity=".16"
+                ></circle>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.75 12a8.25 8.25 0 0 1 11.916-7.393.75.75 0 1 0 .668-1.343A9.713 9.713 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75c0-.366-.02-.727-.06-1.082a.75.75 0 1 0-1.49.164A8.25 8.25 0 1 1 3.75 12Zm17.78-6.47a.75.75 0 0 0-1.06-1.06L12 12.94l-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l9-9Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <p>Basic Integrations</p>
+            </li>
+            <li>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  fill="currentColor"
+                  fill-opacity=".16"
+                ></circle>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.75 12a8.25 8.25 0 0 1 11.916-7.393.75.75 0 1 0 .668-1.343A9.713 9.713 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75c0-.366-.02-.727-.06-1.082a.75.75 0 1 0-1.49.164A8.25 8.25 0 1 1 3.75 12Zm17.78-6.47a.75.75 0 0 0-1.06-1.06L12 12.94l-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l9-9Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <p>Community Support</p>
+            </li>
+          </ul>
+          <a class="card-btn"> Get Started </a>
+        </div>
+        <div class="card">
+          <p class="card-name">Startup</p>
+          <h2>$19</h2>
+          <ul>
+            <li>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  fill="currentColor"
+                  fill-opacity=".16"
+                ></circle>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.75 12a8.25 8.25 0 0 1 11.916-7.393.75.75 0 1 0 .668-1.343A9.713 9.713 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75c0-.366-.02-.727-.06-1.082a.75.75 0 1 0-1.49.164A8.25 8.25 0 1 1 3.75 12Zm17.78-6.47a.75.75 0 0 0-1.06-1.06L12 12.94l-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l9-9Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <p>All Free Features</p>
+            </li>
+            <li>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  fill="currentColor"
+                  fill-opacity=".16"
+                ></circle>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.75 12a8.25 8.25 0 0 1 11.916-7.393.75.75 0 1 0 .668-1.343A9.713 9.713 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75c0-.366-.02-.727-.06-1.082a.75.75 0 1 0-1.49.164A8.25 8.25 0 1 1 3.75 12Zm17.78-6.47a.75.75 0 0 0-1.06-1.06L12 12.94l-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l9-9Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <p>Up to 20 users</p>
+            </li>
+            <li>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  fill="currentColor"
+                  fill-opacity=".16"
+                ></circle>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.75 12a8.25 8.25 0 0 1 11.916-7.393.75.75 0 1 0 .668-1.343A9.713 9.713 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75c0-.366-.02-.727-.06-1.082a.75.75 0 1 0-1.49.164A8.25 8.25 0 1 1 3.75 12Zm17.78-6.47a.75.75 0 0 0-1.06-1.06L12 12.94l-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l9-9Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <p>20 Custom domains</p>
+            </li>
+            <li>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  fill="currentColor"
+                  fill-opacity=".16"
+                ></circle>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.75 12a8.25 8.25 0 0 1 11.916-7.393.75.75 0 1 0 .668-1.343A9.713 9.713 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75c0-.366-.02-.727-.06-1.082a.75.75 0 1 0-1.49.164A8.25 8.25 0 1 1 3.75 12Zm17.78-6.47a.75.75 0 0 0-1.06-1.06L12 12.94l-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l9-9Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <p>Unlimited Collaborators</p>
+            </li>
+            <li>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  fill="currentColor"
+                  fill-opacity=".16"
+                ></circle>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.75 12a8.25 8.25 0 0 1 11.916-7.393.75.75 0 1 0 .668-1.343A9.713 9.713 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75c0-.366-.02-.727-.06-1.082a.75.75 0 1 0-1.49.164A8.25 8.25 0 1 1 3.75 12Zm17.78-6.47a.75.75 0 0 0-1.06-1.06L12 12.94l-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l9-9Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <p>Advanced Integrations</p>
+            </li>
+            <li>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  fill="currentColor"
+                  fill-opacity=".16"
+                ></circle>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.75 12a8.25 8.25 0 0 1 11.916-7.393.75.75 0 1 0 .668-1.343A9.713 9.713 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75c0-.366-.02-.727-.06-1.082a.75.75 0 1 0-1.49.164A8.25 8.25 0 1 1 3.75 12Zm17.78-6.47a.75.75 0 0 0-1.06-1.06L12 12.94l-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l9-9Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <p>Priority Support</p>
+            </li>
+          </ul>
+          <a class="card-btn black-card-btn"> Get Started </a>
+        </div>
+        <div class="card">
+          <p class="card-name">Enterprise</p>
+          <h2>Custom</h2>
+          <ul>
+            <li>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  fill="currentColor"
+                  fill-opacity=".16"
+                ></circle>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.75 12a8.25 8.25 0 0 1 11.916-7.393.75.75 0 1 0 .668-1.343A9.713 9.713 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75c0-.366-.02-.727-.06-1.082a.75.75 0 1 0-1.49.164A8.25 8.25 0 1 1 3.75 12Zm17.78-6.47a.75.75 0 0 0-1.06-1.06L12 12.94l-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l9-9Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <p>All Pro Features</p>
+            </li>
+            <li>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  fill="currentColor"
+                  fill-opacity=".16"
+                ></circle>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.75 12a8.25 8.25 0 0 1 11.916-7.393.75.75 0 1 0 .668-1.343A9.713 9.713 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75c0-.366-.02-.727-.06-1.082a.75.75 0 1 0-1.49.164A8.25 8.25 0 1 1 3.75 12Zm17.78-6.47a.75.75 0 0 0-1.06-1.06L12 12.94l-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l9-9Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <p>Unlimited Custom domains</p>
+            </li>
+            <li>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  fill="currentColor"
+                  fill-opacity=".16"
+                ></circle>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.75 12a8.25 8.25 0 0 1 11.916-7.393.75.75 0 1 0 .668-1.343A9.713 9.713 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75c0-.366-.02-.727-.06-1.082a.75.75 0 1 0-1.49.164A8.25 8.25 0 1 1 3.75 12Zm17.78-6.47a.75.75 0 0 0-1.06-1.06L12 12.94l-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l9-9Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <p>99.99% Uptime SLA</p>
+            </li>
+            <li>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  fill="currentColor"
+                  fill-opacity=".16"
+                ></circle>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.75 12a8.25 8.25 0 0 1 11.916-7.393.75.75 0 1 0 .668-1.343A9.713 9.713 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75c0-.366-.02-.727-.06-1.082a.75.75 0 1 0-1.49.164A8.25 8.25 0 1 1 3.75 12Zm17.78-6.47a.75.75 0 0 0-1.06-1.06L12 12.94l-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l9-9Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <p>SAML & SSO Integration</p>
+            </li>
+            <li>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  fill="currentColor"
+                  fill-opacity=".16"
+                ></circle>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.75 12a8.25 8.25 0 0 1 11.916-7.393.75.75 0 1 0 .668-1.343A9.713 9.713 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75c0-.366-.02-.727-.06-1.082a.75.75 0 1 0-1.49.164A8.25 8.25 0 1 1 3.75 12Zm17.78-6.47a.75.75 0 0 0-1.06-1.06L12 12.94l-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l9-9Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <p>Dedicated Account Manager</p>
+            </li>
+            <li>
+              <svg
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  fill="currentColor"
+                  fill-opacity=".16"
+                ></circle>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.75 12a8.25 8.25 0 0 1 11.916-7.393.75.75 0 1 0 .668-1.343A9.713 9.713 0 0 0 12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75c0-.366-.02-.727-.06-1.082a.75.75 0 1 0-1.49.164A8.25 8.25 0 1 1 3.75 12Zm17.78-6.47a.75.75 0 0 0-1.06-1.06L12 12.94l-2.47-2.47a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l9-9Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <p>24/7 Phone Support</p>
+            </li>
+          </ul>
+          <a class="card-btn"> Contact Us </a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright © 2023 Astroship. All rights reserved.</p>
+      <p>
+        Copied by
+        <a href="https://github.com/xleyzor" target="_blank">Ömer T.</a>
+      </p>
+    </footer>
+  </body>
+</html>

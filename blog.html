@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog | Astroship</title>
+    <link rel="icon" href="images/favicon.svg" />
+
+    <!-- CS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- JS -->
+    <script src="app.js" defer></script>
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="index.html" class="logo"
+          ><span class="astro">Astro</span><span class="ship">ship</span></a
+        >
+        <ul class="navbar-list">
+          <li>
+            <button class="dropdown-menu">
+              <span>Features</span>
+              <div class="arrows">
+                <i class="fa-solid fa-angle-up up" id="arrow-up"></i>
+                <i class="fa-solid fa-angle-down down" id="arrow-down"></i>
+              </div>
+            </button>
+            <div class="dropdown">
+              <a href="#">Action</a>
+              <a href="#">Another action</a>
+              <a href="#">Dropdown Submenu </a>
+            </div>
+          </li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="login">
+          <a href="#" class="log-in">Log in</a>
+          <a href="#" class="sign-up">Sign up</a>
+        </div>
+
+        <button class="menu">
+          <i class="fa-solid fa-bars bars"></i>
+          <i class="fa-solid fa-xmark xmark"></i>
+        </button>
+      </div>
+      <div class="mobileNavbar">
+        <div class="mobile-links">
+          <div class="features-li">
+            <button class="dropdown-menu mobile-dropdown-menu">
+              <span>Features</span>
+              <div class="arrows arrows-mobile">
+                <i class="fa-solid fa-angle-up up" id="arrow-up"></i>
+                <i class="fa-solid fa-angle-down down" id="arrow-down"></i>
+              </div>
+            </button>
+            <div class="mobile-dropdown">
+              <a href="#">Action</a>
+              <a href="#">Another action</a>
+              <a href="#">Dropdown Submenu </a>
+            </div>
+          </div>
+          <a href="pricing.html">Pricing</a>
+          <a href="about.html">About</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="mobil-login">
+          <a href="#">Log in</a>
+          <a href="#">Sign up</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="title">
+        <h1>Our Blog</h1>
+        <p>We write about building startups and thoughts going on our mind.</p>
+      </div>
+      <ul class="blog-list">
+        <li>
+          <a href="blog-1.html">
+            <div class="blog-item-content">
+              <img src="images/blog-1.avif" />
+              <div class="blog-list-text">
+                <span>COURSES</span>
+                <h3>
+                  Introduction to the Essential Data Structures & Algorithms
+                </h3>
+                <div class="blog-time">
+                  <p>Marcell Ziemann</p>
+                  <p>•</p>
+                  <p>Wed Nov 09 2022</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="blog-2.html">
+            <div class="blog-item-content">
+              <img src="images/blog-2.avif" />
+              <div class="blog-list-text">
+                <span>TUTORIALS</span>
+                <h3>The Complete Guide to Full Stack Web Development</h3>
+                <div class="blog-time">
+                  <p>Janette Lynch</p>
+                  <p>•</p>
+                  <p>Tue Nov 08 2022</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="blog-3.html">
+            <div class="blog-item-content">
+              <img src="images/blog-3.avif" />
+              <div class="blog-list-text">
+                <span>TUTORIALS</span>
+                <h3>How to become a Frontend Master</h3>
+                <div class="blog-time">
+                  <p>Connor Lopez</p>
+                  <p>•</p>
+                  <p>Mon Nov 07 2022</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="blog-4.html">
+            <div class="blog-item-content">
+              <img src="images/blog-4.avif" />
+              <div class="blog-list-text">
+                <span>TECHNOLOGY</span>
+                <h3>Typography Example Post</h3>
+                <div class="blog-time">
+                  <p>Charles North</p>
+                  <p>•</p>
+                  <p>Sat Nov 05 2022</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </main>
+    <footer>
+      <p>Copyright © 2023 Astroship. All rights reserved.</p>
+      <p>
+        Copied by
+        <a href="https://github.com/xleyzor" target="_blank">Ömer T.</a>
+      </p>
+    </footer>
+  </body>
+</html>
